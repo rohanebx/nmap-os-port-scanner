@@ -1,0 +1,18 @@
+1. Python 3
+The script uses standard Python 3 libraries (os, subprocess).
+
+To install:
+sudo apt update
+sudo apt install python3
+
+2. Nmap
+Nmap must be installed for the tool to work.
+Install on Debian/Ubuntu-based systems:
+sudo apt install nmap
+
+Verify installation:
+nmap --version
+
+(Optional) Pip
+No external libraries are required for this script. However, installing pip is helpful for future enhancements:
+sudo apt install python3-pip
